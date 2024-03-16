@@ -39,6 +39,6 @@ int main()
 	}
 
 
-	std::cout << encrypted << std::endl << decrypted;
+	std::cout << encrypted << std::endl << decrypted << std::endl;
 	
 }
