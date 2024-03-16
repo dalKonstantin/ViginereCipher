@@ -39,6 +39,7 @@ int main()
 	}
 
 
-	std::cout << encrypted << std::endl << decrypted << std::endl;
+	std::cout << "Original msg:\t"  << input << std::endl << "Key:\t" << input_key<< std::endl;
+	std::cout << "Encrypted msg:\t" << encrypted << std::endl << "Decrypted msg:\t" << decrypted << std::endl;
 	
 }
